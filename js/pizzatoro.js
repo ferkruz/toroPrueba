@@ -31,23 +31,8 @@ var menu = function() {
 						li.id = menu.pizza[i].ingredientes[j].name; 
 						li.setAttribute('data-precio', parseFloat(menu.pizza[i].ingredientes[j].precio));
 						pizzaprecio= pizzaprecio+parseFloat(menu.pizza[i].ingredientes[j].precio);	
-						document.querySelector("#ingredientes"+i).appendChild(li);	
-						
-					/*li.addEventListener('click', e => {
-							event.preventDefault();	
-							alert (li);
-							pizzaprecio=pizzaprecio-parseFloat(li.getAttribute('data-precio'));
-							li.remove();
-							h4.textContent = "PRECIO: "+pizzaprecio;
-							
-							/**document.getElementById(li.id).addEventListener('click', e => {
-							event.preventDefault();	
-							pizzaprecio=pizzaprecio-parseFloat(document.getElementById(li.id).getAttribute('data-precio'));
-							document.getElementById(li.id).remove();
-							h4.textContent = "PRECIO: "+pizzaprecio;*/
-							
-							
-					//});
+						document.querySelector("#ingredientes"+i).appendChild(li);
+
 					
 				 }
 				 const h4 = document.createElement('h4');
