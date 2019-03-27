@@ -1,0 +1,112 @@
+{
+  "pizza": [
+    {
+      "id": "SUPREMA",
+      "ingredientes": [
+        {
+          "name": "Queso Mozzarella",
+          "precio": "0.50"
+        },
+        {
+          "name": "Ternera",
+          "precio": "0.75"
+        },
+        {
+          "name": "Pepperoni",
+          "precio": "1"
+        },
+        {
+          "name": "Cebolla Roja",
+          "precio": "0.25"
+        },
+        {
+          "name": "Oregano",
+          "precio": "0.25"
+        },
+        {
+          "name": "Champiñones",
+          "precio": "0.75"
+        }
+      ]
+    },
+    {
+      "id": "BARBACOA CLÁSICA",
+      "ingredientes": [
+        {
+          "name": "Queso Mozzarella",
+          "precio": "0.50"
+        },
+        {
+          "name": "Oregano",
+          "precio": "0.25"
+        },
+        {
+          "name": "Salsa Barbacoa",
+          "precio": "0.75"
+        },
+        {
+          "name": "Salchicha",
+          "precio": "0.75"
+        },
+        {
+          "name": "Ternera",
+          "precio": "0.75"
+        },
+        {
+          "name": "Jamón",
+          "precio": "1.50"
+        }
+      ]      
+    },
+	{
+      "id": "GOURMET",
+      "ingredientes": [
+        {
+          "name": "Salsa Carbonara",
+          "precio": "1.50"
+        },
+        {
+          "name": "Cebolla",
+          "precio": "0.25"
+        },
+        {
+          "name": "Champiñón",
+          "precio": "0.75"
+        },
+        {
+          "name": "Salsa Barbacoa",
+          "precio": "0.75"
+        },
+        {
+          "name": "Queso Mozzarella",
+          "precio": "0.50"
+        }
+      ]      
+    },
+    {
+      "id": "POLLO A LA PARRILLA",
+      "ingredientes": [
+        {
+          "name": "Queso Feta",
+          "precio": "1"
+        },
+        {
+          "name": "Oregano",
+          "precio": "0.25"
+        },
+        {
+          "name": "Bacon",
+          "precio": "0.75"
+        },
+        {
+          "name": "Pollo",
+          "precio": "0.75"
+        },
+        {
+          "name": "Extra Mozzarella",
+          "precio": "0.25"
+        }
+      ]      
+    }
+  ]
+}

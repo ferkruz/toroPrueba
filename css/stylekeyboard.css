@@ -1,0 +1,65 @@
+
+
+.keyboard {
+  border-radius: 3px;
+  cursor: default;
+  display: inline-grid;
+  font-size: 16px;
+  grid-gap: 4px;
+  grid-template-columns: repeat(50, 18.5px);
+  grid-template-rows: repeat(1, 60px);
+  padding: 10px;
+  transition: box-shadow .3s;
+  user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+.keyboard.dark {
+  background-image: radial-gradient(ellipse at 30% 10%, #555, #050505);
+}
+
+.keyboard .key.inactive {
+  opacity: .5;
+}
+
+.keyboard.primary-blue {
+  box-shadow: 0 0 10px 1px #1e88e5;
+}
+.keyboard.primary-blue .key {
+  border: 1px solid #1E88E5;
+  box-shadow: 0 0 10px 1px #1e88e5;
+  color: #1E88E5;
+  text-shadow: 0 0 10px #1e88e5;
+}
+.keyboard.primary-blue .key:not(.inactive):hover, .keyboard.primary-blue .key:not(.inactive).pressed {
+  background-color: #1E88E5;
+}
+.keyboard.primary-blue.dark .key:not(.inactive):hover, .keyboard.primary-blue.dark .key:not(.inactive).pressed {
+  box-shadow: 0 0 0 0 transparent;
+  color: #000;
+  text-shadow: 0 0 10px #000;
+}
+.keyboard.primary-blue.light .key:not(.inactive):hover, .keyboard.primary-blue.light .key:not(.inactive).pressed {
+  box-shadow: 0 0 0 0 transparent;
+  color: #fff;
+  text-shadow: 0 0 10px #000;
+}
+
+
+.key {
+  align-items: center;
+  background-color: transparent;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-flex;
+  grid-column: auto / span 4;
+  justify-content: center;
+  transition: background-color .3s, color .3s, box-shadow .3s, text-shadow .3s;
+}
+
+.key.k8 {
+  grid-column: auto / span 10;
+}
+

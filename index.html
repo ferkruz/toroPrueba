@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es"  id="tottem">
+<head>
+  <meta charset="utf-8">
+  <title>OSSEG tótem 2019</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+
+
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header" class="fixed-top">
+    <div class="container">
+
+      <div class="logo float-left">
+        <a href="#intro" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+<ul>
+          <li class="active"><a href="#intro">Home</a></li>
+          <li><a href="#agusto">A tu Gusto</a></li>
+          <li><a href="#pizzas">Nuestras Pizzas</a></li>
+          <li><a href="#pedido">Su Pedido</a></li>
+
+      </ul>
+      </nav><!-- .main-nav -->
+      
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro" class="clearfix">
+    <div class="container">
+
+      <div class="intro-img">
+        
+      </div>
+
+      <div class="intro-info">
+        <h2>Nueva Pizzeria,<br> <span>haga su pedido</span></h2>
+        <div>
+          <a href="#pizzas" class="btn-get-started scrollto">Nuestras Pizzas</a>
+          <a href="#agusto" class="btn-services scrollto">Pizza a tu Gusto</a>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- #intro -->
+
+  <main id="main">
+
+ 
+
+    <!--==========================
+      pizzas Sección
+    ============================-->
+    <section id="pizzas" class="section-bg">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Nuestras Pizzas</h3>
+          <p>Pinche sobre los ingredientes si quiere eliminarlos de su pizza.</p>
+        </header>
+
+        <div class="row">
+
+          <div id="boxmenu" class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
+            <div id="menu" class="box">
+              <div class="icon"><i class="ion-pizza" style="color: #4680ff;"></i></div>
+              <h4 class="title"><a id="pizza" href="#"></a></h4>
+
+
+              <a href="#" onclick="MyFunction()"; class="pizza_ok">Realizar Pedido</a>  
+            </div>
+          </div>
+          
+          
+          
+        </div>
+
+      </div>
+    </section><!-- #pizzas -->
+
+    <!--==========================
+     a tu gusto
+    ============================-->
+    <section id="agusto" class="wow fadeIn">
+    
+    <br><br>
+    
+      <div class="container">
+        <header class="section-header">
+          <h3>Arma la Pizza a tu Gusto</h3>
+          <p>Seleccione los ingredientes que Ud. deseé.</p>
+        </header>
+
+        <div class="row row-eq-height justify-content-center">
+        
+
+
+          <div id="ingcard" class="col-lg-8 mb-3">
+            <div class="card">
+                <i class="fa fa fa-cutlery"></i>
+              <div class="card-body">
+                <h5 class="card-title">Ingredientes</h5>
+                 <select type="select" name="ing" id="ing">
+                   
+           		 </select>
+                <a href="#" id="ing_ok" class="readmore">Añadir</a>
+              </div>
+            </div>
+          </div>
+          
+           <div id="pzacard" class="col-lg-8 mb-3">
+            <div class="card">
+                <i class="fa fa-list-alt"></i>
+              <div class="card-body">
+                <h5 class="card-title">Su Pizza</h5>
+                <p>Pinche sobre los ingredientes si quiere eliminarlos de su pizza.</p>
+                 <ul name="ingrok" id="ingrok">
+                 
+           		 </ul>
+               <a href="#" id="env" class="readmore">Realizar Pedido</a>  
+              </div>
+            </div>
+          </div>
+ 
+    </section>
+
+  
+
+    <!--==========================
+      Pedidos
+    ============================-->
+    <section id="team">
+      <div class="container">
+        <div class="section-header">
+          <h3>Su pedido</h3>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <h3 id="pedido"></h3>
+        </div>
+          
+
+        
+  <div id="login-div" class="row justify-content-center">    
+  </div>
+  
+    </section><!-- #pedido -->
+
+ 
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+     
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>F.Cruz</strong>
+      </div>
+      <div class="credits">
+
+        Realizado por <span>Fernando Cruz</span>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+
+  <!-- <div id="preloader"></div>
+
+  <!-- JavaScript-->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/mobile-nav/mobile-nav.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+
+
+
+  <script src="contactform/contactform.js"></script>
+
+  <script src="js/main.js"></script>
+  <script src="js/pizzatoro.js"></script>
+  
+
+
+</body>
+</html>
